@@ -1,0 +1,36 @@
+{
+  "name": "best-bot",
+  "version": "1.0.0",
+  "description": "One Paragraph of project description goes here",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/**/*.js src/**/*.mjs",
+    "postinstall": "echo \"Error: no postinstall run specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LBG-Moscow/best-bot.git"
+  },
+  "author": "Caio Fleury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LBG-Moscow/best-bot/issues"
+  },
+  "homepage": "https://github.com/LBG-Moscow/best-bot#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "nodemon": "^2.0.3"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "sequelize": "^5.21.7"
+  }
+}
