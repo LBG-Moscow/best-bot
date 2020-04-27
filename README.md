@@ -1,4 +1,4 @@
-# best-bot
+# best-bot [![Build Status](https://travis-ci.com/LBG-Moscow/best-bot.svg?token=LprjWcQjL2BzzoK5rQeq&branch=master)](https://travis-ci.com/LBG-Moscow/best-bot)
 One Paragraph of project description goes here
 
 ## Getting Started
@@ -20,6 +20,7 @@ PostgreSQL
 
 ```
 git clone git@github.com:LBG-Moscow/best-bot.git
+cd best-bot/
 npm install
 npm run dev
 ```
