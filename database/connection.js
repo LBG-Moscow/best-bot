@@ -5,6 +5,7 @@ try {
 catch(error) {
     console.log(error);
 }
+
 const DB_URL = process.env.DATABASE_URL || DB_config.URL;
 
 //This will error out if you do not have the database_url or in your config file.
