@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint src/**/*.js src/**/*.mjs",
-    "postinstall": "echo \"Error: no postinstall run specified\" && exit 1"
+    "lint": "eslint --ignore-path .gitignore . --fix",
+    "start": "node index.js",
+    "postinstall": "node setup.js"
+  },
+  "engines": {
+    "node": ">=10"
   },
   "repository": {
     "type": "git",
@@ -31,6 +35,8 @@
   "dependencies": {
     "discord.js": "^12.2.0",
     "eslint-plugin-jest": "^23.8.2",
-    "sequelize": "^5.21.7"
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "pg": "^8.0.3"
   }
 }
