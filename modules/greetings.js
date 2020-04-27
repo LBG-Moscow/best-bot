@@ -3,9 +3,9 @@ class Greeter {
 		// Handle good morning and goodnight
 		let reg_hello = new RegExp('привет');
 		let reg_goodbye = new RegExp('пока');
-        if (reg_morning.test(message.content.toLowerCase())) {
+        if (reg_hello.test(message.content.toLowerCase())) {
             return await message.react("👋");
-        } else if (reg_night.test(message.content.toLowerCase())) {
+        } else if (reg_goodbye.test(message.content.toLowerCase())) {
             return await message.react("💤");
         }
 	}
