@@ -15,9 +15,6 @@ client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.config = require('./config.json');
 
-// Load basic functions
-require("./modules/functions.js")(client);
-
 //Load database client and connect
 PGclient = require("./database/connection.js")
 PGclient.connect();
