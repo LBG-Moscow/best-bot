@@ -3,7 +3,7 @@ try {
     DB_config = require('./db_config.json');
 }
 catch(error) {
-    console.log(error);
+    console.log("No db_config.json (expected on deployment)");
 }
 
 const DB_URL = process.env.DATABASE_URL || DB_config.URL;

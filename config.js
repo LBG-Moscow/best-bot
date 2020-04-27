@@ -2,10 +2,10 @@ try {
   local_config = require("config.json");
 }
 catch(error) {
-  console.log(error);
+  console.log("No config.json (expected on deployment)");
 }
-const owner_id = local_config.local_owner_id || process.env.OWNERID;
-const token_id = local_config.local_token || process.env.TOKENID;
+const owner_id = process.env.OWNERID || local_config.local_owner_id;
+const token_id = process.env.TOKENID || local_config.local_token;
 
 
 const config = {
