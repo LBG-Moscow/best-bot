@@ -20,6 +20,7 @@ PostgreSQL
 
 ```
 git clone git@github.com:LBG-Moscow/best-bot.git
+cd best-bot/
 npm install
 npm run dev
 ```
