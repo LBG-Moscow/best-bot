@@ -1,4 +1,3 @@
-const config = require('../config.json');
 const Discord = require('discord.js');
 
 class blacklistActions {
@@ -6,7 +5,8 @@ class blacklistActions {
 
 
 	static async checkBlacklist(client, message) {
-		const blacklistList = config.modules.blacklistArray;
+		const blacklistList = []
+		// config.modules.blacklistArray;
 
 		const lowerCaseMessage = message.content.toLowerCase();
 		let blacklistWord;

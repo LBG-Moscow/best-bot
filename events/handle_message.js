@@ -1,4 +1,4 @@
-const config = require('../config.json');
+const config = require('../config');
 const handleBlacklist = require('../modules/blacklist.js');
 const handleGreet = require('../modules/greetings.js');
 
