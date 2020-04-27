@@ -1,0 +1,43 @@
+{
+  "name": "best-bot",
+  "version": "1.0.0",
+  "description": "One Paragraph of project description goes here",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ignore-path .gitignore . --fix",
+    "start": "node index.js",
+    "dev": "npx nodemon server.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LBG-Moscow/best-bot.git"
+  },
+  "author": "Caio Fleury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LBG-Moscow/best-bot/issues"
+  },
+  "homepage": "https://github.com/LBG-Moscow/best-bot#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "nodemon": "^2.0.3"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "discord.js": "^12.2.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "pg": "^8.0.3"
+  }
+}
