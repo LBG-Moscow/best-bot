@@ -1,6 +1,16 @@
+try {
+  local_config = require("config.json");
+}
+catch(error) {
+  console.log(error);
+}
+const owner_id = local_config.local_owner_id || process.env.OWNERID;
+const token_id = local_config.local_token || process.env.TOKENID;
+
+
 const config = {
   // Bot Owner, level 10 by default. A User ID. Should never be anything else than the bot owner's ID.
-  "ownerID": "123456789123456",
+  "ownerID": owner_id,
 
   // Bot Admins, level 9 by default. Array of user ID strings.
   "admins": [],
@@ -9,7 +19,7 @@ const config = {
   "support": [],
 
   // Your Bot's Token. Available on https://discordapp.com/developers/applications/me
-  "token": "123456789123456.123456789123456.abcd.123456789123456",
+  "token": token_id,
 
   // Default per-server settings. New guilds have these settings. 
 
@@ -23,8 +33,8 @@ const config = {
     "adminRole": "Administrator",
     "systemNotice": "true", // This gives a notice when a user tries to run a command that they do not have permission to use.
     "welcomeChannel": "welcome",
-    "welcomeMessage": "Say hello to {{user}}, everyone! We all need a warm welcome sometimes :D",
-    "welcomeEnabled": "false"
+    "welcomeMessage": "Привествую вас {{user}}, добро пожаловать!",
+    "welcomeEnabled": "enabled"
   },
 
   // PERMISSION LEVEL DEFINITIONS.

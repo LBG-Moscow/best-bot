@@ -1,6 +1,6 @@
 #local config file
-config.js
-db_config.js
+config.json
+db_config.json
 
 # Logs
 logs

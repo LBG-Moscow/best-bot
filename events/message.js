@@ -4,7 +4,6 @@
 config = require('../config.js');
 
 module.exports = async (client, message) => {
-	console.log("hit");
 	// It's good practice to ignore other bots. This also makes your bot ignore itself
 	// and not get into a spam loop (we call that "botception").
 	if (message.author.bot) return;
