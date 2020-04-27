@@ -1,7 +1,6 @@
 const config = require('../config.json');
-const handleBlacklist = require('../modules/profanityActions');
-const handleGreet = require('../modules/citadelActions');
-const handleAFK = require('../modules/afkMessageCheckAction');
+const handleBlacklist = require('../modules/blacklist.js');
+const handleGreet = require('../modules/greetings.js');
 
 module.exports = async (client, message) => {
 
