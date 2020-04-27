@@ -80,4 +80,4 @@ const init = async () => {
     client.login(client.config.token);
 };
 
-init();
+init().then(()=> console.log("Bot is online."));
