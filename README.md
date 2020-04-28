@@ -1,6 +1,6 @@
 # best-bot [![Build Status](https://travis-ci.com/LBG-Moscow/best-bot.svg?token=LprjWcQjL2BzzoK5rQeq&branch=master)](https://travis-ci.com/LBG-Moscow/best-bot) ![](https://img.shields.io/discord/688689789196959745.svg?color=7289DA&label=Discord%20Chat&logo=Discord&logoColor=7289DA&style=plastic)
 
-This is the main bot for the Local Best Group Moscow at it's social media's groups [VK](https://vk.com/) and [Discord](https://discordapp.com/).
+This is the main bot for the Local Board of European Students of Technology Group Moscow at it's social media's groups [VK](https://vk.com/) and [Discord](https://discordapp.com/).
 
 ## Getting Started
 
