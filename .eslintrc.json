@@ -29,6 +29,17 @@
         "semi": [
             "error",
             "always"
+        ],
+        "no-unused-vars": [
+            2,
+             {
+                "args": "after-used",
+                "argsIgnorePattern": "^_"
+            }
+        ],
+        "no-mixed-spaces-and-tabs": [
+            2,
+            "smart-tabs"
         ]
     },
     "plugins": ["jest"]
