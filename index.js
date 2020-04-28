@@ -1,10 +1,10 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // best-bot or lbg-bot is authored and mantained by Caio Fleury, contact me at caio.fleury.r@gmail.com                // 
 // If you don't understand this code read https://github.com/AnIdiotsGuide/guidebot before trying to change anything. //
+//                                                                                                                    //
+// Local development only commands, do not use in production! Make sure they are commented before pushing to master!  //
+// process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;                                                                   //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Local development only commands, do not use in production! //
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;              //
-////////////////////////////////////////////////////////////////
 
 // Check node version.
 if (Number(process.version.slice(1).split(".")[0]) < 10) throw new Error("Node 10.0.0 or higher is required. Update your Node");
