@@ -5,7 +5,7 @@ class blacklistActions {
 
 
 	static async checkBlacklist(client, message) {
-		const blacklistList = []
+		const blacklistList = [];
 		// config.modules.blacklistArray;
 
 		const lowerCaseMessage = message.content.toLowerCase();
@@ -66,7 +66,7 @@ class blacklistActions {
 			embedMessage.addField('Here', section, false);
 
 			// Send message to moderation log
-			client.channels.get(config.channels.moderation).send(embedMessage);
+			//client.channels.get(config.channels.moderation).send(embedMessage);
 		}
 
 	}
